@@ -21,4 +21,13 @@
     background-color: #000;
     color: #fff;
     padding: 0.53em;
+    /* width: 33.33333%; */
+    /* width: 1000px; */
+}
+
+.flex-item:nth-child(3) {
+    background-color: pink;
+    /* height: 150px; */
+    height: 50rem;
+    color: black;
 }
