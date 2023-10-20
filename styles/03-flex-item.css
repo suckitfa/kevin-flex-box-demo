@@ -1,0 +1,27 @@
+.flex-container {
+    width: 70%;
+    max-width: 60rem;
+    border: 5px solid #000;
+    padding: 2em;
+    /* display:block flex; */
+    display: flex;
+    /* outter inner value */
+    /* display: inline flex; */
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+}
+
+.flex-item {
+    margin: 0.5rem;
+    border: 5px solid #aaa;
+    background-color: #000;
+    color: #fff;
+    padding: 0.53em;
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+    .flex-container {
+        flex-direction: row;
+    }
+}
